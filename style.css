@@ -1,0 +1,127 @@
+@font-face {
+  font-family: gotham;
+  src: url(fonts/Gotham-Book.ttf)
+ }
+ 
+*{
+  margin: 0;
+  font-family: gotham;
+  border: border-box;
+}
+
+
+.border{
+  border: 2px solid transparent;
+}
+.border:hover{
+  border: 1.5px solid black;
+}
+.navbar{
+  height: 75px;
+  background-color: #ffff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo{
+  height: 70px;
+  width: 200px;
+}
+
+.logo{
+  background-image: url("img/logo.png");
+  background-size: cover;
+  height: 70px;
+  width: 100%;
+}
+
+.nav-menu{
+  display: flex;
+ 
+}
+.menu-links ul a {
+  margin-right: 30px;
+}
+
+.social-links ul a{
+  margin-right: 20px;
+}
+
+.hero-section{
+  height: 100%;
+  background-color: #ff6404;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.hero-section{
+  height: 400px;
+  background-image: url("img/News-Hero-Bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  border-bottom: 10%;
+  
+}
+.hero-head{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.hero-subhead{
+  color: #fff;
+  font-family: "League Spartan Bold", d;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 1.2em;
+}
+
+.counter-subsection{
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.counter-section{
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  background-color: white;
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.counter-span{
+    color: #84d6cb;
+    font-family: "League Spartan Bold", d;
+    font-size: 45px;
+    margin-left: 45px;
+    font-weight: 800px;
+}
+
+.counter-text{
+  font-size: 20px;
+  font-weight: 200px;
+}
+
+.Scrollable-header{
+  color: #f77b76;
+  font-size: 22px;
+  line-height: 1.7em;
+  margin-top: 20px;
+}
+.scroll-section{
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
